@@ -4,7 +4,7 @@ require 'rails/generators/named_base'
 module Zen
   module Api
     module Generators
-      class ScaffoldControllerGenerator < NamedBase
+      class ScaffoldControllerGenerator < Rails::Generators::NamedBase
         include ResourceHelpers
 
         check_class_collision :suffix => "Controller"

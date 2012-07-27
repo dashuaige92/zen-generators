@@ -1,0 +1,8 @@
+Description:
+    Generate a controller to expose a Model under a JSON/XML API.
+
+Example:
+    rails generate zen:api:scaffold_controller User
+
+    This will create:
+        app/controllers/users_controller.rb
