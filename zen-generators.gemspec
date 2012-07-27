@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.email       = ["kenthesage@gmail.com"]
   s.homepage    = "http://github.com/kenthesage/zen-generators"
   s.summary     = "Rails 3 generators for various gems."
-  s.description = "TODO: Rails 3 generators for various gems and libraries, including acts_as_api, backbone, etc."
+  s.description = "Rails 3 generators for various gems and libraries, including acts_as_api, backbone, etc."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
