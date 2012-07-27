@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.add_dependency('railties', '~> 3.2.6')
+  s.add_dependency('rails', '~> 3.2.6')
   s.add_dependency('coffee-script', '~> 2.2.0')
   s.add_dependency('ejs', '~> 1.0.0')
 end
